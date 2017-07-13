@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		049FEE8A1F17670C001C2174 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FEE891F17670C001C2174 /* main.m */; };
+		049FEE8D1F17670C001C2174 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FEE8C1F17670C001C2174 /* AppDelegate.m */; };
+		049FEE901F17670C001C2174 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FEE8F1F17670C001C2174 /* ViewController.m */; };
+		049FEE931F17670C001C2174 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049FEE911F17670C001C2174 /* Main.storyboard */; };
+		049FEE951F17670C001C2174 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049FEE941F17670C001C2174 /* Assets.xcassets */; };
+		049FEE981F17670C001C2174 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049FEE961F17670C001C2174 /* LaunchScreen.storyboard */; };
+		049FEEA21F1767DB001C2174 /* BaseNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FEEA11F1767DB001C2174 /* BaseNetworkManager.m */; };
+		049FEEA51F176977001C2174 /* JKBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FEEA41F176977001C2174 /* JKBaseRequest.m */; };
+		049FEEAD1F17775A001C2174 /* LBGetProjectBasicInfoRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FEEAC1F17775A001C2174 /* LBGetProjectBasicInfoRequest.m */; };
+		2C93D3885104789F293F6852 /* Pods_JKNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB5BCE033D1BB7FEE7FF084 /* Pods_JKNetwork.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		049FEE851F17670C001C2174 /* JKNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		049FEE891F17670C001C2174 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		049FEE8B1F17670C001C2174 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		049FEE8C1F17670C001C2174 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		049FEE8E1F17670C001C2174 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		049FEE8F1F17670C001C2174 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		049FEE921F17670C001C2174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		049FEE941F17670C001C2174 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		049FEE971F17670C001C2174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		049FEE991F17670C001C2174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049FEEA01F1767DB001C2174 /* BaseNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNetworkManager.h; sourceTree = "<group>"; };
+		049FEEA11F1767DB001C2174 /* BaseNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNetworkManager.m; sourceTree = "<group>"; };
+		049FEEA31F176977001C2174 /* JKBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKBaseRequest.h; sourceTree = "<group>"; };
+		049FEEA41F176977001C2174 /* JKBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKBaseRequest.m; sourceTree = "<group>"; };
+		049FEEAB1F17775A001C2174 /* LBGetProjectBasicInfoRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBGetProjectBasicInfoRequest.h; sourceTree = "<group>"; };
+		049FEEAC1F17775A001C2174 /* LBGetProjectBasicInfoRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBGetProjectBasicInfoRequest.m; sourceTree = "<group>"; };
+		76C44F0AF18335AF9755129F /* Pods-JKNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-JKNetwork/Pods-JKNetwork.release.xcconfig"; sourceTree = "<group>"; };
+		9EB5BCE033D1BB7FEE7FF084 /* Pods_JKNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JKNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E04A4F5BA5BD8A63DF5C45D2 /* Pods-JKNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JKNetwork/Pods-JKNetwork.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		049FEE821F17670C001C2174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C93D3885104789F293F6852 /* Pods_JKNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		049FEE7C1F17670C001C2174 = {
+			isa = PBXGroup;
+			children = (
+				049FEE871F17670C001C2174 /* JKNetwork */,
+				049FEE861F17670C001C2174 /* Products */,
+				AA57BB3D7D32F400BC0F3BAF /* Pods */,
+				3A12960DE4BD2F99371D18C8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		049FEE861F17670C001C2174 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				049FEE851F17670C001C2174 /* JKNetwork.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		049FEE871F17670C001C2174 /* JKNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				049FEE9F1F1767BD001C2174 /* Network */,
+				049FEE8B1F17670C001C2174 /* AppDelegate.h */,
+				049FEE8C1F17670C001C2174 /* AppDelegate.m */,
+				049FEE8E1F17670C001C2174 /* ViewController.h */,
+				049FEE8F1F17670C001C2174 /* ViewController.m */,
+				049FEE911F17670C001C2174 /* Main.storyboard */,
+				049FEE941F17670C001C2174 /* Assets.xcassets */,
+				049FEE961F17670C001C2174 /* LaunchScreen.storyboard */,
+				049FEE991F17670C001C2174 /* Info.plist */,
+				049FEE881F17670C001C2174 /* Supporting Files */,
+			);
+			path = JKNetwork;
+			sourceTree = "<group>";
+		};
+		049FEE881F17670C001C2174 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				049FEE891F17670C001C2174 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		049FEE9F1F1767BD001C2174 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				049FEEA01F1767DB001C2174 /* BaseNetworkManager.h */,
+				049FEEA11F1767DB001C2174 /* BaseNetworkManager.m */,
+				049FEEA31F176977001C2174 /* JKBaseRequest.h */,
+				049FEEA41F176977001C2174 /* JKBaseRequest.m */,
+				049FEEAA1F17775A001C2174 /* Requests Example */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		049FEEAA1F17775A001C2174 /* Requests Example */ = {
+			isa = PBXGroup;
+			children = (
+				049FEEAB1F17775A001C2174 /* LBGetProjectBasicInfoRequest.h */,
+				049FEEAC1F17775A001C2174 /* LBGetProjectBasicInfoRequest.m */,
+			);
+			path = "Requests Example";
+			sourceTree = "<group>";
+		};
+		3A12960DE4BD2F99371D18C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EB5BCE033D1BB7FEE7FF084 /* Pods_JKNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA57BB3D7D32F400BC0F3BAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E04A4F5BA5BD8A63DF5C45D2 /* Pods-JKNetwork.debug.xcconfig */,
+				76C44F0AF18335AF9755129F /* Pods-JKNetwork.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		049FEE841F17670C001C2174 /* JKNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049FEE9C1F17670C001C2174 /* Build configuration list for PBXNativeTarget "JKNetwork" */;
+			buildPhases = (
+				FA9B7C6CDC83A7D4FD6D8A5C /* [CP] Check Pods Manifest.lock */,
+				049FEE811F17670C001C2174 /* Sources */,
+				049FEE821F17670C001C2174 /* Frameworks */,
+				049FEE831F17670C001C2174 /* Resources */,
+				4B7BB15885DDD3C0B321B86B /* [CP] Embed Pods Frameworks */,
+				2A86AC9654FE450CF6F1CC01 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKNetwork;
+			productName = JKNetwork;
+			productReference = 049FEE851F17670C001C2174 /* JKNetwork.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		049FEE7D1F17670C001C2174 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = JK;
+				TargetAttributes = {
+					049FEE841F17670C001C2174 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 049FEE801F17670C001C2174 /* Build configuration list for PBXProject "JKNetwork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 049FEE7C1F17670C001C2174;
+			productRefGroup = 049FEE861F17670C001C2174 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				049FEE841F17670C001C2174 /* JKNetwork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		049FEE831F17670C001C2174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049FEE981F17670C001C2174 /* LaunchScreen.storyboard in Resources */,
+				049FEE951F17670C001C2174 /* Assets.xcassets in Resources */,
+				049FEE931F17670C001C2174 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A86AC9654FE450CF6F1CC01 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JKNetwork/Pods-JKNetwork-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B7BB15885DDD3C0B321B86B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JKNetwork/Pods-JKNetwork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA9B7C6CDC83A7D4FD6D8A5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		049FEE811F17670C001C2174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049FEE901F17670C001C2174 /* ViewController.m in Sources */,
+				049FEEAD1F17775A001C2174 /* LBGetProjectBasicInfoRequest.m in Sources */,
+				049FEE8D1F17670C001C2174 /* AppDelegate.m in Sources */,
+				049FEE8A1F17670C001C2174 /* main.m in Sources */,
+				049FEEA21F1767DB001C2174 /* BaseNetworkManager.m in Sources */,
+				049FEEA51F176977001C2174 /* JKBaseRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		049FEE911F17670C001C2174 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				049FEE921F17670C001C2174 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		049FEE961F17670C001C2174 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				049FEE971F17670C001C2174 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		049FEE9A1F17670C001C2174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		049FEE9B1F17670C001C2174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		049FEE9D1F17670C001C2174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E04A4F5BA5BD8A63DF5C45D2 /* Pods-JKNetwork.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..JKNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		049FEE9E1F17670C001C2174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76C44F0AF18335AF9755129F /* Pods-JKNetwork.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..JKNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		049FEE801F17670C001C2174 /* Build configuration list for PBXProject "JKNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049FEE9A1F17670C001C2174 /* Debug */,
+				049FEE9B1F17670C001C2174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049FEE9C1F17670C001C2174 /* Build configuration list for PBXNativeTarget "JKNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049FEE9D1F17670C001C2174 /* Debug */,
+				049FEE9E1F17670C001C2174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 049FEE7D1F17670C001C2174 /* Project object */;
+}
