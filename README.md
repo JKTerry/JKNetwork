@@ -1,0 +1,4 @@
+# JKNetwork
+基于AFNetworking封装的网络库，使用简单，针对每个请求都可以独立成一个类，便于对数据的处理。
+详情请见Network文件夹下的Requests Example。
+接口继承于JKBaseRequest, 参数请对应请求接口的参数写成类的属性。参数在JKBaseRequest中是通过runtime的方式通过属性转换而来。进而简化参数设置流程。
